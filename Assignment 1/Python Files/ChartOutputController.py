@@ -49,7 +49,3 @@ class ChartController(object):
         else:
             print("Box Plot Made!")
             return True
-
-
-bar = ChartController()
-bar.get_bar_graph('This is a bar graph', ['Oxygen', 'Hydrogen', 'Carbon_Dioxide', 'Nitrogen'], [4500, 2500, 1053, 500], ['words name', 'Numbers Names'])
